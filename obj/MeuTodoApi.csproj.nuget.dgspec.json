@@ -1,26 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\dev\\MeuTodoApi\\MeuTodoApi.csproj": {}
+    "/workspaces/MeuTodoApi/MeuTodoApi.csproj": {}
   },
   "projects": {
-    "C:\\dev\\MeuTodoApi\\MeuTodoApi.csproj": {
+    "/workspaces/MeuTodoApi/MeuTodoApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev\\MeuTodoApi\\MeuTodoApi.csproj",
+        "projectUniqueName": "/workspaces/MeuTodoApi/MeuTodoApi.csproj",
         "projectName": "MeuTodoApi",
-        "projectPath": "C:\\dev\\MeuTodoApi\\MeuTodoApi.csproj",
-        "packagesPath": "C:\\Users\\Greice Lasznaster\\.nuget\\packages\\",
-        "outputPath": "C:\\dev\\MeuTodoApi\\obj\\",
+        "projectPath": "/workspaces/MeuTodoApi/MeuTodoApi.csproj",
+        "packagesPath": "/home/codespace/.nuget/packages/",
+        "outputPath": "/workspaces/MeuTodoApi/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Greice Lasznaster\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/codespace/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "/usr/local/dotnet/7.0.306/sdk/7.0.306/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -87,7 +87,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/dotnet/7.0.306/sdk/7.0.306/RuntimeIdentifierGraph.json"
         }
       }
     }

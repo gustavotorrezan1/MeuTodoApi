@@ -16,7 +16,7 @@ namespace MeuTodoApi.Controllers;
             _context = context;
         }
 
-        // GET: api/Todo
+        // GET ALL: api/Todo
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Todo>>> GetTodos()
         {
@@ -27,7 +27,7 @@ namespace MeuTodoApi.Controllers;
             return await _context.Todos.ToListAsync();
         }
 
-        // GET: api/Todo/5
+        // GET BY ID: api/Todo/5
         [HttpGet("{id}")]
         public async Task<ActionResult<Todo>> GetTodo(int id)
         {
@@ -46,7 +46,7 @@ namespace MeuTodoApi.Controllers;
         }
 
         // PUT: api/Todo/5
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
+        
         [HttpPut("{id}")]
         public async Task<IActionResult> PutTodo(int id, Todo todo)
         {
@@ -77,7 +77,7 @@ namespace MeuTodoApi.Controllers;
         }
 
         // POST: api/Todo
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
+
         [HttpPost]
         public async Task<ActionResult<Todo>> PostTodo(Todo todo)
         {
